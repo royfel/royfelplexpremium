@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+
+  <!-- General -->
+  <category label="32000">
+    <!-- <setting id="transcode_format" label="32023" type="labelenum" values="mkv|hls" default="mkv" /> -->
+
+    <!-- <setting id="playback_directplay_force" type="bool" label="32027" default="false" enable="eq(-1,true)" subsetting="true" /> -->
+
+    <setting id="kiosk.mode" type="bool" label="32043" default="false" />
+    <setting id="auto_signin" type="bool" label="32038" default="true" />
+    <setting id="theme_music" type="text" label="32480" default="2" />
+    <setting id="allow_hevc" type="bool" label="32037" default="true" />
+    <setting id="allow_av1" type="bool" label="32601" default="true" />
+    <setting id="debug" type="bool" label="32024" default="false" />
+  </category>
+  <category label="32464">
+    <setting id="auto_seek" type="bool" label="32466" default="true" />
+    <setting id="kodi_skip_stepping" type="bool" label="32465" default="false" />
+    <setting id="auto_seek_delay" type="number" label="32487" default="1" />
+    <setting id="dynamic_timeline_seek" type="bool" label="32471" default="false" />
+    <setting id="forced_subtitles_override" type="bool" label="32493" default="false" />
+    <setting id="postplay_timeout" type="integer" label="32501" default="16" />
+    <setting id="skip_intro_button_timeout" type="integer" label="32521" default="10" />
+    <setting id="skip_credits_button_timeout" type="integer" label="32525" default="10" />
+  </category>
+  <category label="32467">
+    <setting id="fast_back" type="bool" label="32485" default="false" />
+    <setting id="postplay_always" type="bool" label="32500" default="false" />
+    <setting id="dynamic_backgrounds" type="bool" label="32468" default="true" />
+    <setting id="background_art_blur_amount" type="integer" label="32469" default="0" />
+    <setting id="background_art_opacity_amount" type="integer" label="32470" default="40" />
+    <setting id="playlist_visit_media" type="bool" label="32505" default="true" />
+  </category>
+  <category label="32488">
+    <setting id="screensaver_quiz" type="bool" label="32489" default="false" />
+  </category>
+  <category label="Plex">
+	<setting type="lsep" label="plex.tv"/>
+<setting id="myplex.MyPlexAccount" type="text" default="{&quot;ID&quot;: &quot;98416110&quot;, &quot;title&quot;: &quot;Guest&quot;, &quot;username&quot;: &quot;&quot;, &quot;email&quot;: &quot;&quot;, &quot;authToken&quot;: &quot;mz-utKu4-jWFUoz87Kq4&quot;, &quot;pin&quot;: null, &quot;isPlexPass&quot;: false, &quot;isManaged&quot;: true, &quot;isAdmin&quot;: false, &quot;isSecure&quot;: true, &quot;adminHasPlexPass&quot;: true}" visible="false" /><!-- Current plex.tv status: -->
+  </category>
+</settings>
